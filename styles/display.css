@@ -1,0 +1,20 @@
+.brightness {
+    width: 80%;
+    background-color: white;
+}
+
+body {
+    font-family: sans-serif
+}
+
+.fa-toggle-on {
+    color: teal;
+}
+
+p {
+    font-size: 16px;
+}
+
+span {
+    font-size: 10px;
+}

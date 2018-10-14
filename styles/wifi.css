@@ -1,0 +1,22 @@
+.network_list {
+    display: grid;
+    grid-template-columns: auto;
+    font-family: sans-serif;
+    grid-row-gap: 20px;
+    margin: 20px;
+}
+
+.network_list>span {
+    border-bottom: solid 0.5px #f1ebeb;
+    font-family: sans-serif;
+}
+
+h3,
+h4 {
+    font-family: sans-serif;
+}
+
+.wifi_button {
+    float: right;
+    color: teal;
+}

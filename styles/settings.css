@@ -1,0 +1,35 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.settings_container {
+    font-family: sans-serif;
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 20px;
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+h2>i {
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+.settings_container a {
+    display: grid;
+    grid-template-columns: 30% auto;
+}
+
+.fa-wifi {
+    color: teal;
+}
+
+.fa-map-marker-alt {
+    color: teal;
+}
