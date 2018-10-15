@@ -9,13 +9,16 @@ function initialize() {
 function list_view(event) {
     document.querySelector('.settings_container').style['grid-template-columns'] = 'auto';
     document.querySelectorAll('.settings_container a').forEach(x => x.style.display = 'grid');
-    document.querySelectorAll('.settings_container a').forEach(x => x.style['grid-template-columns'] = '30% auto');
+    document.querySelectorAll('.settings_container a').forEach(x => x.style['grid-template-columns'] = '25% auto');
+    document.querySelectorAll('.settings_container a').forEach(x => x.style['text-align'] = 'left');
+
 }
 
 function icon_view() {
     document.querySelector('.settings_container').style.display = 'grid';
-    document.querySelector('.settings_container').style['grid-template-columns'] = 'auto auto auto auto';
+    document.querySelector('.settings_container').style['grid-template-columns'] = '25% 25% 25% 25%';
     document.querySelectorAll('.settings_container a').forEach(x => x.style.display = 'grid');
     document.querySelectorAll('.settings_container a').forEach(x => x.style['grid-template-columns'] = 'auto');
+    document.querySelectorAll('.settings_container a').forEach(x => x.style['text-align'] = 'center');
 
 }

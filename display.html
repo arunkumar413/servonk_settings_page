@@ -14,11 +14,28 @@
 
 <body>
     <p> Brightness level</p>
-    <i class="fas fa-sun fa-1x"></i>
-    <input class='brightness' type="range" max='90' min='5' step='1' />
+    <div class="brightness">
+        <i class="fas fa-sun fa-2x"></i>
+        <input type="range" max='90' min='5' step='1' />
+    </div>
 
-    <p> Adaptive brightness <i class="fas fa-toggle-on fa-1x"></i></p>
-    <span> Ajust the display brightness as per the amibient light </span>
-    <p> Atuto rotate screen <i class="fas fa-toggle-on fa-1x"></i></p>
+    <p> Adaptive brightness </p>
+
+    <div class="auto_brightness">
+        <p> Automatically adjust the brightness as per the amibient light </p>
+        <i class="fas fa-toggle-on fa-2x"> </i>
+    </div>
+    <p> Auto rotate screen </p>
+    <i class="fas fa-toggle-on fa-2x"></i>
+
+    <p> Sleep</p>
+    <select>
+    <option value="5">5 seconds</option>
+    <option value="10">10 seconds</option>
+    <option value="15">15 seconds</option>
+    <option value="20">20 seconds</option>
+    <option value="30">30 seconds</option>
+    <option value="1">1 minute</option>
+    </select>
 
 </body>

@@ -1,6 +1,8 @@
 .brightness {
     width: 80%;
     background-color: white;
+    display: grid;
+    grid-template-columns: 20% auto
 }
 
 body {
@@ -17,4 +19,17 @@ p {
 
 span {
     font-size: 10px;
+}
+
+.fab .fas {
+    margin: auto;
+}
+
+.auto_brightness {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.auto_brightness p {
+    margin: auto;
 }

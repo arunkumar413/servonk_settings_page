@@ -9,21 +9,11 @@ a {
     display: grid;
     grid-template-columns: auto;
     grid-row-gap: 20px;
+    list-style: none;
 }
 
-h2 {
+body {
     font-family: sans-serif;
-}
-
-h2>i {
-    float: right;
-    margin-left: 10px;
-    margin-right: 10px
-}
-
-.settings_container a {
-    display: grid;
-    grid-template-columns: 30% auto;
 }
 
 .fa-wifi {
@@ -32,4 +22,27 @@ h2>i {
 
 .fa-map-marker-alt {
     color: teal;
+}
+
+.settings_container a {
+    display: grid;
+    grid-template-columns: 25% auto;
+}
+
+ul {
+    padding: 5px;
+}
+
+.settings {
+    display: grid;
+    grid-template-columns: 80% auto;
+}
+
+.fas,
+.fab {
+    margin: auto;
+}
+
+.settings>div {
+    margin: auto;
 }
