@@ -35,7 +35,7 @@ ul {
 
 .settings {
     display: grid;
-    grid-template-columns: 80% auto;
+    grid-template-columns: 70% auto;
 }
 
 .fas,
@@ -44,5 +44,11 @@ ul {
 }
 
 .settings>div {
-    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+}
+
+.settings i {
+    padding: 10px;
 }
